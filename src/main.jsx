@@ -1,14 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HooksApp } from "./HooksApp";
 import { CounterApp } from "./01-useState/CounterApp";
-import "./index.css";
 import { CounterWithCustomHook } from "./01-useState/CounterWithCustomHook";
+import { HooksApp } from "./HooksApp";
+import { SimpleForm } from "./02-useEffect/SimpleForm";
+import { SimpleFormWCH } from "./02-useEffect/SimpleFormWCH";
+
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <HooksApp /> */}
     {/* <CounterApp /> */}
-    <CounterWithCustomHook />
+    {/* <CounterWithCustomHook /> */}
+    {/* <SimpleForm /> */}
+    <SimpleFormWCH />
   </React.StrictMode>
 );
