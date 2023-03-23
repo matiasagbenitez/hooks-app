@@ -7,6 +7,7 @@ import { SimpleForm } from "./02-useEffect/SimpleForm";
 import { SimpleFormWCH } from "./02-useEffect/SimpleFormWCH";
 
 import "./index.css";
+import { MultipleCustomHooks } from "./03-examples/MultipleCustomHooks";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <CounterApp /> */}
     {/* <CounterWithCustomHook /> */}
     {/* <SimpleForm /> */}
-    <SimpleFormWCH />
+    {/* <SimpleFormWCH /> */}
+    <MultipleCustomHooks />
   </React.StrictMode>
 );
